@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+}
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg, black, rgb(153, 217, 243));
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+img{
+    width: 100%;
+
+}
+p, h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left{
+    /* border: 1px solid black; */
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.giveawaytitle{
+    font-size: 35px;
+
+}
+.giveawayend{
+    font-size: 25px;
+}
+.time{
+    display: flex;
+    flex-direction: row;
+
+}
+.timeshape{
+    padding: 10px;
+    border: 0;
+    border-radius: 18px 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timers{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3px 0;
+    background-color: navy;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.lab{
+    color: navy;
+    font-weight:bold;
+    padding: 5px 0;
+}
+@media screen and (max-width: 525px) {
+    body{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
